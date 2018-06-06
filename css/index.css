@@ -1,0 +1,298 @@
+
+.background{
+    width: 100vw;
+    display: block;
+}
+
+.huodong{
+    position: absolute;
+    right: 0;
+    top: 0.26rem;
+    width: 1.38rem;
+}
+
+.tel{
+    font-size: 0.28rem;
+    color: #f6d9e3;
+    height: 0.86rem;
+    padding-left: 0.16rem;
+    width: 100vw;
+    border-top: 1px solid #ffe5f3;
+    border-bottom: 1px solid #ffe5f3;
+    display: block;
+    margin-top: 0.32rem;
+}
+
+.f2{
+    padding: 0 0.2rem;
+    margin-top: 0.46rem;
+}
+
+.f2>.btn{
+    width: 1.68rem;
+    height: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #ffe5f3;
+    background: white;
+    font-size: 0.32rem;
+    color: #353535;
+}
+
+.aixin{
+    width: 0.27rem;
+    display: none;
+    margin-right: 0.04rem;
+}
+
+.f2>.on{
+    background: #fb9ac7;
+    box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
+    color: white;
+}
+
+.f2>.btn.first.on>img.aixin{
+    display: block;
+}
+
+.f2>.btn.last.on>.tel2{
+    display: block;
+}
+
+.f2>.btn.last.on>.zdy{
+    display: none;
+}
+
+.tel2{
+    width: 100%;
+    display: none;
+    background: transparent;
+    text-align: center;
+    color: #353535;
+}
+
+#pay{
+    display: none;
+}
+
+.weixin{
+    width: 0.51rem;
+    height: 0.43rem;
+    display: block;
+    margin-right: 0.26rem;
+}
+
+.text{
+    color: #353535;
+    font-size: 0.28rem;
+    display: block;
+}
+
+.zhifu{
+    width: 100vw;
+    height: 0.88rem;
+    padding: 0 0.18rem;
+    border-top: 1px solid #ffe5f3;
+    border-bottom: 1px solid #ffe5f3;
+}
+
+.zhifu2{
+    margin-top: 0.46rem;
+}
+
+.zhufu3{
+    border-top: none;
+}
+
+.check{
+    display: block;
+}
+
+#pay2{
+    display: none;
+}
+
+.xuanzhong{
+    width: 0.33rem;
+    height: 0.33rem;
+    border: 1px solid #ffe5f3;
+    border-radius: 50%;
+    display: block;
+}
+
+.check:checked+i{
+    width: 0.35rem;
+    height: 0.3rem;
+    background: url(../img/aixingouxuan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
+
+.f3{
+    padding: 0 0.2rem;
+    margin-top: 0.52rem;
+}
+
+.btn_pay{
+    height: 0.88rem;
+    width: 100%;
+    background: #fb9ac7;
+    color: white;
+    font-size: 0.3rem;
+    border-radius: 8px;
+    display: block;
+}
+
+.btn_pay:active{
+    box-shadow: inset 0 -4px 0 rgba(232,120,172,1);
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+}
+
+/*活动规则开始*/
+.bg{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.d-none{
+    display: none!important;
+}
+
+.rule{
+    width: 6.5rem;
+    background: white;
+    border-radius: 30px;
+    position: fixed;
+    top: 1.02rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 0.5rem;
+}
+
+.rule_title{
+    height: 1.31rem;
+}
+
+.line{
+    width: 1.96rem;
+    height: 0.01rem;
+    background: #ed6095;
+}
+
+.title{
+    font-size: 0.32rem;
+    color: #ed6095;
+}
+
+.rule_text{
+    font-size: 0.26rem;
+    color: #f7699e;
+    line-height: 0.5rem;
+}
+
+.rule_btn{
+    height: 2.12rem;
+}
+
+.know{
+    height: 0.88rem;
+    width: 100%;
+    background: #fb9ac7;
+    color: white;
+    font-size: 0.3rem;
+    border-radius: 8px;
+}
+
+.know:active{
+    box-shadow: inset 0 -4px 0 #e878ac;
+    transform: translateY(2px);
+}
+/*活动规则结束*/
+
+/*输入手机号开始*/
+.input_tel{
+    width: 6.72rem;
+    background: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 3.32rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input_f1{
+    padding: 0 0.67rem;
+}
+
+.addtel{
+    width: 5.38rem;
+    height: 0.88rem;
+    border: 1px solid #ffe5f3;
+    padding-left: 0.26rem;
+    font-size: 0.28rem;
+    display: block;
+    margin-top: 0.37rem;
+}
+
+.input_text{
+    padding: 0 0.67rem;
+    font-size: 0.28rem;
+    color: #f7699e;
+    margin-top: 0.2rem;
+    margin-bottom: 0.48rem;
+}
+
+.input_btn{
+    width: 50%;
+    color: white;
+    height: 1.2rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.input_btn1{
+    background: #cbcbcb;
+    border-radius: 0 0 0 10px;
+}
+
+.input_btn2{
+    background: #fb9ac7;
+    border-radius: 0 0 10px 0;
+}
+/*输入手机号结束*/
+
+/*确认手机号开始*/
+.same{
+    width: 6.72rem;
+    background: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 3.88rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.same_text{
+    padding: 0 0.7rem;
+    font-size: 0.28rem;
+    color: #f7699e;
+    height: 2rem;
+}
+/*确认手机号结束*/
+
+
+
+
+
+
+
+
+
+

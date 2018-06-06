@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="yes" name=" apple-mobile-web-app-capable" />
+    <meta content="no" name="apple-touch-fullscreen" />
+    <meta content="black" name=" apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection"/>
+    <script src="../js/base.min.js"></script>
+    <title></title>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="../css/index.css"/>
+
+</head>
+<body>
+
+<!--首页开始-->
+<img src="../img/bg1.jpg" alt="" class="background"/>
+
+<img src="../img/huodong.png" alt="" class="huodong"/>
+
+<input type="tel" placeholder="请输入福建移动号码" class="tel" maxlength="11"/>
+
+<section class="f2" flex="main:justify">
+
+    <div flex="main:center cross:center"  class="btn first on" >
+        <img src="../img/aixin.png" alt="" class="aixin"/>
+        13.14元
+    </div>
+    <div class="btn" flex="main:center cross:center" >50元</div>
+    <div class="btn" flex="main:center cross:center" >100元</div>
+    <div class="btn last" flex="main:center cross:center" >
+        <input type="tel" class="tel2" maxlength="11"/>
+        <span class="zdy">自定义</span>
+
+    </div>
+
+</section>
+
+<label for="pay" flex="main:justify cross:center" class="zhifu zhifu2">
+    <div flex>
+        <img src="../img/weixin.png" alt="" class="weixin"/>
+        <span class="text">微信支付</span>
+    </div>
+    <div>
+        <input type="radio" class="check" id="pay" name="a"/>
+        <i class="xuanzhong"></i>
+    </div>
+</label>
+
+<label for="pay2" flex="main:justify cross:center" class="zhifu zhufu3">
+    <div flex>
+        <img src="../img/yinlian.png" alt="" class="weixin"/>
+        <span class="text">银联支付</span>
+    </div>
+    <div>
+        <input type="radio" class="check" id="pay2" name="a" checked/>
+        <i class="xuanzhong"></i>
+    </div>
+</label>
+
+<section class="f3">
+    <button type="button" class="btn_pay">立即支付</button>
+</section>
+<!--首页结束-->
+
+<!--活动规则开始-->
+<div class="bg tc1 d-none">
+    <div class="rule">
+
+        <div class="rule_title" flex="cross:center main:justify">
+            <div class="line"></div>
+            <span class="title">活动规则</span>
+            <div class="line"></div>
+        </div>
+
+        <p class="rule_text">1、活动时间：2月14日--2月16日</p>
+        <p class="rule_text">2、活动期间用户为自己的好友/亲人/爱人充值13.14元，即可获得1G流量日包奖励；</p>
+        <p class="rule_text">3、活动期间内用户最多可获赠3次1G流量日包，流量生效期间不可重复受理；</p>
+        <p class="rule_text">4、1G流量日包生效后有效期为24小时，内含流量在24小时内使用有效。超过期限（或使用完内含流量），套餐及内含流量同时失效；</p>
+        <p class="rule_text">5、旧版wap套餐取消后方可参与本活动。若客户为预销户状态、或随E行等状态异常客户，也无法参与本活动。</p>
+
+        <div class="rule_btn">
+            <button type="button" class="know">知道了</button>
+        </div>
+
+    </div>
+</div>
+<!--活动规则结束-->
+
+<!--输入手机号开始-->
+<div class="bg d-none tc2">
+    <div class="input_tel">
+
+        <div class="input_f1">
+            <input type="tel" class="addtel" placeholder="请输入您的手机号码" maxlength="11"/>
+        </div>
+
+        <p class="input_text">获赠流量将通过该号码领取，受理结果将在完成扣款后，以短信形式通知。</p>
+
+        <div class="input_f3" flex>
+            <div class="input_btn input_btn1 judge_cancel">取消</div>
+            <div class="input_btn input_btn2 judge_yes">确认</div>
+        </div>
+
+    </div>
+</div>
+<!--输入手机号结束-->
+
+<!--确认手机号开始-->
+<div class="bg d-none tc3">
+    <div class="same">
+        <p class="same_text" flex="cross:center">
+            您输入的手机号码与充值手机号码一致，无法获赠流量。继续充值吗？
+        </p>
+        <div flex>
+            <div class="input_btn input_btn1 same_cancel">取消</div>
+            <div class="input_btn input_btn2 same_yes">确认</div>
+        </div>
+    </div>
+</div>
+<!--确认手机号结束-->
+
+
+
+
+<script src="../js/index.js"></script>
+
+</body>
+</html>

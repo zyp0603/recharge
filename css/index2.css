@@ -1,0 +1,97 @@
+/*充值成功1开始*/
+.background{
+    width: 100%;
+    display: block;
+}
+
+.f1{
+    padding: 0 0.2rem;
+    margin-top: 0.3rem;
+}
+
+.text1{
+    width: 100%;
+    color: #d16284;
+    font-size: 0.28rem;
+    background: #fbdce6;
+    border-radius: 8px;
+    padding: 0.24rem 0.3rem;
+    line-height: 0.42rem;
+}
+
+.f2{
+    padding: 0 0.2rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0.58rem;
+}
+
+.box{
+    width: 100%;
+    height: 0.88rem;
+    border: 1px dashed #fb9ac7;
+    border-radius: 8px;
+}
+
+.f2_img{
+    width: 4.82rem;
+}
+
+.text2{
+    font-size: 0.26rem;
+    color: #d16284;
+}
+/*充值成功1结束*/
+
+/*充值成功2开始*/
+.floor1{
+    width: 100%;
+    height: 5.34rem;
+    background: url(../img/aixinbg.png);
+    background-repeat: no-repeat;
+    background-size: 6.69rem;
+    background-position: center center;
+}
+
+.floor1_img1{
+    width: 3.18rem;
+    margin-top: 0.82rem;
+}
+
+.floor1_img2{
+    width: 3.34rem;
+    margin-top: 0.26rem;
+}
+
+.floor2_title{
+    padding: 0 0.2rem;
+    height: 0.3rem;
+}
+
+.line{
+    width: 2.69rem;
+    height: 0.01rem;
+    background: #ed6095;
+}
+
+.title{
+    font-size: 0.28rem;
+    color: #f7699e;
+}
+
+.floor2_text{
+    padding: 0 0.2rem;
+    margin-top: 0.38rem;
+}
+
+.floor_rule{
+    font-size: 0.26rem;
+    color: #f7699e;
+    line-height: 0.42rem;
+}
+/*充值成功2结束*/
+
+
+
+
+
+
